@@ -1,5 +1,5 @@
 FROM       openjdk
-MAINTAINER Frederik Hahne <frederik.hahne@gmail.com>
+MAINTAINER Florian Fröhlich <ffr@adorsys.de>
 
 RUN apt-get install -y curl
 # install node.js
