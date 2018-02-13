@@ -15,7 +15,7 @@ In order to cache e.g. ``node_modules`` you can define this in your ``gitlab-ci.
 A sample gitlab ci config may look like this:
 
 ```yml
-image: atomfrede/gitlab-ci-jhipster-stack
+image: ffradorsys/gitlab-ci-jhipster-stack
 
 cache:
   key: "$CI_BUILD_REF_NAME"
@@ -43,7 +43,7 @@ For gradle you have to change the gradle cache directory. When using the convent
 specify the cache directory for every command. The downloaded gradle wrapper is also cached in this case.
 
 ```yml
-image: atomfrede/gitlab-ci-jhipster-stack
+image: ffradorsys/gitlab-ci-jhipster-stack
 
 cache:
   key: "$CI_BUILD_REF_NAME"
